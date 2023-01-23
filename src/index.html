@@ -2,28 +2,41 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Hello World!</title>
+    <title>Convertor d'Evan et Corentin</title>
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>Convertor</h1>
-
-    <select name="" id="drop1">
-      <option value="GIO">GIO</option>
-      <option value="GO">GO</option>
-      <option value="MIO">MIO</option>
-      <option value="MO">MO</option>
-    </select>
-    <select name="" id="drop2">
-      <option value="GIO">GIO</option>
-      <option value="GO">GO</option>
-      <option value="MIO">MIO</option>
-      <option value="MO">MO</option>
-    </select>
-    <input type="number" id="number"/>
-    <button id="swap" onclick="swap()">SWAP</button>
-    <button id="conv" onclick="convert()">CONVERT</button>
-    <p id="Result">____</p>
+    <h1>CONVERTOR</h1>
+    <div class="grid-container">
+      <div class="drop_1">
+        <select name="" id="drop1">
+          <option value="GIO">GIO</option>
+          <option value="GO">GO</option>
+          <option value="MIO">MIO</option>
+          <option value="MO">MO</option>
+        </select>
+      </div>
+      <div class="input">
+        <input type="number" id="number">
+      </div>
+      <div class="drop_2">
+        <select name="" id="drop2">
+          <option value="GIO">GIO</option>
+          <option value="GO">GO</option>
+          <option value="MIO">MIO</option>
+          <option value="MO">MO</option>
+        </select>
+      </div>
+      <div class="swap_btn">
+        <button id="swap" onclick="swap()">SWAP</button>
+      </div>
+      <div class="conv_btn">
+        <button id="conv" onclick="convert()">CONVERT</button>
+      </div>
+      <div class="result">
+        <p id="Result">____</p>
+      </div>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>

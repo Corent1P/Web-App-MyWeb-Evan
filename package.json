@@ -12,10 +12,7 @@
     "lint": "echo \"No linting configured\""
   },
   "keywords": [],
-  "author": {
-    "name": "Candan",
-    "email": "evan.candan@epitech.eu"
-  },
+  "author": "Candan <evan.candan@epitech.eu>",
   "license": "MIT",
   "dependencies": {
     "electron-squirrel-startup": "^1.0.0"
@@ -27,5 +24,13 @@
     "@electron-forge/maker-squirrel": "^6.0.4",
     "@electron-forge/maker-zip": "^6.0.4",
     "electron": "22.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Corent1P/Web-App-MyWeb-Evan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Corent1P/Web-App-MyWeb-Evan/issues"
+  },
+  "homepage": "https://github.com/Corent1P/Web-App-MyWeb-Evan#readme"
 }
